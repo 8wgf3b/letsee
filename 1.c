@@ -5,15 +5,12 @@
 int main(void)
 {
   int n;
-  scanf("%d", &n);
-  printf("no. of test cases %d\n",n);
-  char* str;
-  for (int i = 0; i < n; ++i)
+  int i = 0;
+  while (i < 6)
   {
-    str = (char *) malloc(100*sizeof(char));
-    scanf("%s", str);
-    printf("%s\n", str);
-    free(str);
+    scanf("%d", &n);
+    printf("%d\n", n);
+    ++i;
   }
   return 0;
 }

@@ -65,6 +65,7 @@ void longestPalindromeSS(char* str)
 void rotate(char* str)
 {
   int len = strlen(str) / 2;
+  printf("%d\n", len);
   int l = len * 2;
   int cl, ch, ml, mh;
   for (int i = 0; i < l; ++i)
