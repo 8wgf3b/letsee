@@ -1,4 +1,4 @@
 3
-MRMRMRM
-MRMLMRMRMMRMM
-MRLRMRLMM
+cbaabcd
+abcabc
+baabcc
