@@ -1,4 +1,4 @@
 3
-cbaabcd
-abcabc
-baabcc
+abcd bcda
+afcd asdg
+1234 2341
