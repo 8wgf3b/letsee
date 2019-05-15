@@ -1,7 +1,7 @@
 import progressbar
 from collections import defaultdict
 
-print('wow')
+#print('wow')
 bar = progressbar.ProgressBar()
 maxl = -1
 num = 1
