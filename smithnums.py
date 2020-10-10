@@ -9,6 +9,7 @@ def digit_summer(num):
     return total
 
 
+# Prime factor sum optimized
 def prime_factor_sum(N):
     total = 0
     i = 1
