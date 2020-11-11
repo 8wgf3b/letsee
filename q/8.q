@@ -5,11 +5,9 @@
 
 ncp: {prd 0^y z + til x}
 
-mncp: {max ncp[y;x] each til count x}
+mncp: {max ncp[y;x] each til count x}[inputs]
 
-mncp2: mncp[inputs]
-
-0N!mncp2[4];
-0N!mncp2[13];
+0N!mncp[4];
+0N!mncp[13];
 
 \\
