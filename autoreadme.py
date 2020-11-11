@@ -12,7 +12,7 @@ with open('names.txt', 'r') as f:
 for i in range(1, count + 1):
     readme += f'[{names[i - 1].rstrip()}](https://projecteuler.net/problem={i}) | '
     readme += f'[{i}.q]({i}.q) | '
-    readme += f'[input](inputs/{i},txt)\n'
+    readme += f'[input](inputs/{i}.txt)\n'
 
 with open('README.md', 'w') as f:
     f.write(readme)
