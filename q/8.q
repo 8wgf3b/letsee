@@ -7,5 +7,5 @@ ncp: {prd 0^y z + til x}
 
 mncp: {max ncp[y;x] each til count x}[inputs]
 
-0N!mncp each 4 13
+0N!mncp each 4 13;
 \\
