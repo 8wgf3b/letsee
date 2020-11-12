@@ -1,6 +1,8 @@
 import glob
 
-count = len(glob.glob('q/[0-9+].q'))
+all_q = set(glob.glob('q/*.q'))
+euler = set(f'q/{i + 1}.q' for i in range(750))
+count = len(all_q & euler)
 
 readme = "# Project Euler Solutions in kdb-q\n\n"
 
