@@ -10,3 +10,4 @@ Problem | Solution | Input
 [Sum square difference](https://projecteuler.net/problem=6) | [6.q](q/6.q) | [input](q/inputs/6.txt)
 [10001st prime](https://projecteuler.net/problem=7) | [7.q](q/7.q) | [input](q/inputs/7.txt)
 [Largest product in a series](https://projecteuler.net/problem=8) | [8.q](q/8.q) | [input](q/inputs/8.txt)
+[Special Pythagorean triplet](https://projecteuler.net/problem=9) | [9.q](q/9.q) | [input](q/inputs/9.txt)
