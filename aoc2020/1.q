@@ -2,9 +2,9 @@
 
 0N!inputs: "J"$ .util.LEI2[.z.f];
 
-sumpro: {prd first l where 2020 = sum each l: x cross x}
+part1: {prd first l where 2020 = sum each l: x cross x}
 
-sumpro2: {prd first l where 2020 = sum each l: x cross x cross x}
+part2: {prd first l where 2020 = sum each l: x cross x cross x}
 
-0N! (sumpro; sumpro2)@\: inputs;
+0N! (part1; part2)@\: inputs;
 \\
