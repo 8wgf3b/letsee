@@ -1,3 +1,8 @@
+# Advent of Code 2020 Solutions in kdb-q
+
+Day | Solution | Input
+ --- | --- | ---
+[1](https://adventofcode.com/2020/day/1) | [1.q](aoc2020/1.q) | [input](aoc2020/inputs/1.txt)
 # Project Euler Solutions in kdb-q
 
 Problem | Solution | Input
@@ -13,9 +18,3 @@ Problem | Solution | Input
 [Special Pythagorean triplet](https://projecteuler.net/problem=9) | [9.q](q/9.q) | [input](q/inputs/9.txt)
 [Summation of primes](https://projecteuler.net/problem=10) | [10.q](q/10.q) | [input](q/inputs/10.txt)
 [Largest product in a grid](https://projecteuler.net/problem=11) | [11.q](q/11.q) | [input](q/inputs/11.txt)
-[Highly divisible triangular number](https://projecteuler.net/problem=12) | [12.q](q/12.q) | [input](q/inputs/12.txt)
-# Advent of Code 2020 Solutions in kdb-q
-
-Day | Solution | Input
- --- | --- | ---
-[1](https://adventofcode.com/2020/day/1) | [1.q](aoc2020/1.q) | [input](aoc2020/inputs/1.txt)
