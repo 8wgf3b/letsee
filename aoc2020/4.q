@@ -2,7 +2,7 @@
 
 reqf: reverse each ("byr"; "iyr"; "eyr"; "hgt"; "hcl"; "ecl"; "pid");
 clean: {$[0 = count y; :x, "\n"; "\n" = last x; :x, y; :x, " ", y]}
-inputs: "\n" vs (clean/) .util.LEI2[`4.q];
+inputs: "\n" vs (clean/) .util.LEI2[.z.f];
 
 colors: ("amb"; "blu"; "brn"; "gry"; "grn"; "hzl"; "oth")
 rngcheck: {("J"$y) within x};
