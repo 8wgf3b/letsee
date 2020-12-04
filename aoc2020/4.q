@@ -22,7 +22,7 @@ checker,: (enlist "cid") ! 1#{1b};
 valid2: {all checker ./:  {":" vs x} each " " vs x}
 
 part1: {sum valid each x}
-part2: {sum valid2 each inputs where valid each x}
+part2: {sum valid2 each x where valid each x}
 
 0N! (part1; part2) @\: inputs;
 \\
