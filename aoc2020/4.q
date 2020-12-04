@@ -6,9 +6,7 @@ inputs: "\n" vs (clean/) .util.LEI2[.z.f];
 
 colors: ("amb"; "blu"; "brn"; "gry"; "grn"; "hzl"; "oth")
 rngcheck: {("J"$y) within x};
-checkbyr: rngcheck 1920 2002
-checkiyr: rngcheck 2010 2020
-checkeyr: rngcheck 2020 2030
+(`checkbyr`checkiyr`checkeyr) set' rngcheck @/: (1920 2002; 2010 2020; 2020 2030);
 checkhgt: {$["cm" ~ un:-2#x; rngcheck[150 193; -2_x]; "in" ~ un; rngcheck[59 76; -2_x]; 0b]}
 checkhcl: {("#" = x 0) and (6 = count (1_x) inter .Q.n, 6#.Q.a)}
 checkecl: {any colors ~\: x}
