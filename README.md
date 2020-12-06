@@ -7,6 +7,7 @@ Day | Solution | Input
 [3](https://adventofcode.com/2020/day/3) | [3.q](aoc2020/3.q) | [input](aoc2020/inputs/3.txt)
 [4](https://adventofcode.com/2020/day/4) | [4.q](aoc2020/4.q) | [input](aoc2020/inputs/4.txt)
 [5](https://adventofcode.com/2020/day/5) | [5.q](aoc2020/5.q) | [input](aoc2020/inputs/5.txt)
+[6](https://adventofcode.com/2020/day/6) | [6.q](aoc2020/6.q) | [input](aoc2020/inputs/6.txt)
 # Project Euler Solutions in kdb-q
 
 Problem | Solution | Input
