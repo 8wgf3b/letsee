@@ -21,7 +21,7 @@ swli: {desc where x[;0] in `nop`jmp}
 swap: {.[x; y, 0; {$[`nop = x; `jmp; `nop]}]}
 rtl: {{count[x 3] >= count x 1} runinst/ (0; (); 0; x)}
 part2: {
-    k: 2 #/: rtl each swap[x] each swli x;
+    k: 2 #/: (rtl swap[x]@) each swli x;
     2 first/ k where count[x] = max each k[;1]
     }
 
