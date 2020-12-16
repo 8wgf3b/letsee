@@ -16,6 +16,8 @@ Day | Solution | Input
 [12](https://adventofcode.com/2020/day/12) | [12.q](aoc2020/12.q) | [input](aoc2020/inputs/12.txt)
 [13](https://adventofcode.com/2020/day/13) | [13.q](aoc2020/13.q) | [input](aoc2020/inputs/13.txt)
 [14](https://adventofcode.com/2020/day/14) | [14.q](aoc2020/14.q) | [input](aoc2020/inputs/14.txt)
+[15](https://adventofcode.com/2020/day/15) | [15.q](aoc2020/15.q) | [input](aoc2020/inputs/15.txt)
+[16](https://adventofcode.com/2020/day/16) | [16.q](aoc2020/16.q) | [input](aoc2020/inputs/16.txt)
 # Project Euler Solutions in kdb-q
 
 Problem | Solution | Input

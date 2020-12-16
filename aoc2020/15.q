@@ -3,7 +3,7 @@
 inputs: "J"$ "," vs raze .util.LEI2[.z.f]; init: {`lo set x};
 
 nextramb: {
-    if[(0 <> diff: count[x] - 1 + lstv) and not null lstv: lo lst: last x; lo[lst]:: -1 + count[x]; :x, diff];
+    if[(0 <> diff: count[x] - 1 + lo lst) and not (lst: last x) in key lo; lo[lst]:: -1 + count[x]; :x, diff];
     lo[lst]:: -1 + count[x]; x, 0
     }
 
