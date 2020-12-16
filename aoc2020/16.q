@@ -10,6 +10,6 @@ cond: (!) . flip getcondfuncs each cond
 
 0N! part1: sum l * not any cond @\: l: raze nearby;
 l: ok ind: iasc count each ok:(where all each cond @\:) each flip nearby where (all any cond @\:) each nearby
-fields: ind ! raze l[0], {x[y] except x y - 1}[l] each 1 + til -1 + count l
+fields: ind ! raze (except':) l 
 0N! part2: prd mytick where string[fields] like "departure*";
 \\
