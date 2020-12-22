@@ -13,27 +13,29 @@ game1: {p1: x 0; p2: x 1;
 score: {sum x * reverse 1 + til count x}
 
 0N!part1: score raze (game1/) inputs;
-
+g.dc: `u#()
 game2: {
-    o1: first p1: x 0; o2: first p2: x 1; hist: x 2; 
+    o1: first p1: x 0; o2: first p2: x 1; 
     $[
-        (|/) 0 = count each -1_x; :x;
-        all (p: enlist (p1; p2)) in hist; :(p1; `long$(); hist);
-        hist ,: p
+        (|/) 0 = count each x; :x;
+        all (p: enlist (p1; p2)) in g.dc; :(p1; `long$());
+        g.dc ,: p
     ];
     d1: 1_p1; d2: 1_p2;
     if[(|/) (o1, o2) >' count'[(d1; d2)];
         $[
-            o1 > o2; :(d1, o1, o2; d2; hist);
-            :(d1; d2, o2, o1; hist)
+            o1 > o2; :(d1, o1, o2; d2);
+            :(d1; d2, o2, o1)
         ]        
     ];
-    nx: (.z.s/) (o1#d1; o2#d2; hist);
+    temp: g.dc; g.dc: `u#();
+    nx: (.z.s/) (o1#d1; o2#d2);
+    g.dc: temp;
     $[
-        0 = count nx 1; :(d1, o1, o2; d2; hist);
-        :(d1; d2, o2, o1; hist)
+        0 = count nx 1; :(d1, o1, o2; d2);
+        :(d1; d2, o2, o1)
     ]    
     }
 
-0N! part2: score raze -1_ (game2/) inputs, enlist `u#();
-\\
+0N! part2: score raze g: (game2/) inputs;
+
