@@ -24,6 +24,9 @@ Day | Solution | Input
 [20](https://adventofcode.com/2020/day/20) | [20.q](aoc2020/20.q) | [input](aoc2020/inputs/20.txt)
 [21](https://adventofcode.com/2020/day/21) | [21.q](aoc2020/21.q) | [input](aoc2020/inputs/21.txt)
 [22](https://adventofcode.com/2020/day/22) | [22.q](aoc2020/22.q) | [input](aoc2020/inputs/22.txt)
+[23](https://adventofcode.com/2020/day/23) | [23.q](aoc2020/23.q) | [input](aoc2020/inputs/23.txt)
+[24](https://adventofcode.com/2020/day/24) | [24.q](aoc2020/24.q) | [input](aoc2020/inputs/24.txt)
+[25](https://adventofcode.com/2020/day/25) | [25.q](aoc2020/25.q) | [input](aoc2020/inputs/25.txt)
 # Project Euler Solutions in kdb-q
 
 Problem | Solution | Input

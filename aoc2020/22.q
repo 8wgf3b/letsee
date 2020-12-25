@@ -38,4 +38,4 @@ game2: {
     }
 
 0N! part2: score raze g: (game2/) inputs;
-
+\\
