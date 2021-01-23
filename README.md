@@ -1,5 +1,7 @@
 # Advent of Code 2020 Solutions in kdb-q
 
+#### Thanks to the kdb-personal group and [András Dőtsch](https://github.com/adotsch/aoc) for the help in clearing some doubts.
+
 Day | Solution | Input
  --- | --- | ---
 [1](https://adventofcode.com/2020/day/1) | [1.q](aoc2020/1.q) | [input](aoc2020/inputs/1.txt)
@@ -27,6 +29,8 @@ Day | Solution | Input
 [23](https://adventofcode.com/2020/day/23) | [23.q](aoc2020/23.q) | [input](aoc2020/inputs/23.txt)
 [24](https://adventofcode.com/2020/day/24) | [24.q](aoc2020/24.q) | [input](aoc2020/inputs/24.txt)
 [25](https://adventofcode.com/2020/day/25) | [25.q](aoc2020/25.q) | [input](aoc2020/inputs/25.txt)
+
+
 # Project Euler Solutions in kdb-q
 
 Problem | Solution | Input
