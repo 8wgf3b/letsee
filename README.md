@@ -43,3 +43,5 @@ Problem | Solution | Input
 [Summation of primes](https://projecteuler.net/problem=10) | [10.q](q/10.q) | [input](q/inputs/10.txt)
 [Largest product in a grid](https://projecteuler.net/problem=11) | [11.q](q/11.q) | [input](q/inputs/11.txt)
 [Highly divisible triangular number](https://projecteuler.net/problem=12) | [12.q](q/12.q) | [input](q/inputs/12.txt)
+[Large sum](https://projecteuler.net/problem=13) | [13.q](q/13.q) | [input](q/inputs/13.txt)
+[Longest Collatz sequence](https://projecteuler.net/problem=14) | [14.q](q/14.q) | [input](q/inputs/14.txt)
