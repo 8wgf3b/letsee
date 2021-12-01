@@ -1,6 +1,12 @@
-* [AOC 2021](#advent-of-code-2021)
-* [AOC 2020](#advent-of-code-2020-solutions-in-kdb-q)
-* [Project Euler](#project-euler-solutions-in-kdb-q)
+* # [AOC 2021](#advent-of-code-2021)
+* # [AOC 2020](#advent-of-code-2020-solutions-in-kdb-q)
+* # [Project Euler](#project-euler-solutions-in-kdb-q)
+- - - -
+# Advent of Code 2021
+
+Day | Solution | Input
+ --- | --- | ---
+[1](https://adventofcode.com/2021/day/1) | [1.hs](aoc2021/1.hs), [1.q](aoc2021/1.q) | [input](aoc2021/inputs/1.txt)
 # Advent of Code 2020 Solutions in kdb-q
 
 Day | Solution | Input

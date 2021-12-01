@@ -1,8 +1,9 @@
 import glob
 
-readme = "* [AOC 2021](#advent-of-code-2021)\n"
-readme += "* [AOC 2020](#advent-of-code-2020-solutions-in-kdb-q)\n"
-readme += "* [Project Euler](#project-euler-solutions-in-kdb-q)\n"
+readme = "* # [AOC 2021](#advent-of-code-2021)\n"
+readme += "* # [AOC 2020](#advent-of-code-2020-solutions-in-kdb-q)\n"
+readme += "* # [Project Euler](#project-euler-solutions-in-kdb-q)\n"
+readme += "- - - -\n"
 
 all_q = set(glob.glob('q/*.q'))
 aoc_q = set(glob.glob('aoc2020/*.q'))
@@ -10,6 +11,17 @@ aoc1_q = set(glob.glob('aoc2021/*.q')) - set(glob.glob('aoc2021/util.q'))
 aoc1_h = set(glob.glob('aoc2021/*.hs')) - set(glob.glob('aoc2021/util.hs'))
 aoc1_f = set(glob.glob('aoc2021/*.fs')) - set(glob.glob('aoc2021/util.fs'))
 
+
+readme += "# Advent of Code 2021\n\n"
+readme += "Day | Solution | Input\n --- | --- | ---\n"
+for i in range(1, 26):
+    sols = set(f"aoc2021/{i}.{ext}" for ext in ["q", "hs", "fs"])
+    sols = sols & (aoc1_q | aoc1_h | aoc1_f)
+    if len(sols) == 0:
+        break
+    readme += f'[{i}](https://adventofcode.com/2021/day/{i}) | '
+    readme += ', '.join(f"[{x.split('/')[-1]}]({x})" for x in sols) + ' | '
+    readme += f"[input](aoc2021/inputs/{i}.txt)\n"
 
 euler = set(f'q/{i + 1}.q' for i in range(750))
 count = len(all_q & euler)
