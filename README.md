@@ -1,3 +1,6 @@
+* [AOC 2021](#advent-of-code-2021)
+* [AOC 2020](#advent-of-code-2020-solutions-in-kdb-q)
+* [Project Euler](#project-euler-solutions-in-kdb-q)
 # Advent of Code 2020 Solutions in kdb-q
 
 Day | Solution | Input
