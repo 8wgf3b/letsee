@@ -10,6 +10,7 @@ Day | Solution | Input
 [2](https://adventofcode.com/2021/day/2) | [2.q](aoc2021/2.q) | [input](aoc2021/inputs/2.txt)
 [3](https://adventofcode.com/2021/day/3) | [3.q](aoc2021/3.q) | [input](aoc2021/inputs/3.txt)
 [4](https://adventofcode.com/2021/day/4) | [4.q](aoc2021/4.q) | [input](aoc2021/inputs/4.txt)
+[5](https://adventofcode.com/2021/day/5) | [5.q](aoc2021/5.q) | [input](aoc2021/inputs/5.txt)
 # Advent of Code 2020 Solutions in kdb-q
 
 Day | Solution | Input
