@@ -13,5 +13,5 @@ trans: {$[
     }
 f: {distinct y trans/: x}
 0N!count f[dots; inst 0];
-a: .[; ; :; "x"]/[(reverse 1 + max c)#"";] reverse'[c: dots f/ inst];
+-1 a: .[; ; :; "x"]/[(reverse 1 + max c)#"";] reverse'[c: dots f/ inst];
 / 0N! will not render. So, render by typing 'a' on interpreter
