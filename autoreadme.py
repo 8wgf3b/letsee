@@ -6,6 +6,7 @@ readme += "* # [Project Euler](#project-euler-solutions-in-kdb-q)\n"
 readme += "- - - -\n"
 
 all_q = set(glob.glob('q/*.q'))
+all_py = set(glob.glob('q/*.py'))
 aoc_q = set(glob.glob('aoc2020/*.q'))
 aoc1_q = set(glob.glob('aoc2021/*.q')) - set(glob.glob('aoc2021/util.q'))
 aoc1_h = set(glob.glob('aoc2021/*.hs')) - set(glob.glob('aoc2021/util.hs'))
@@ -37,17 +38,25 @@ for i in range(1, count_aoc + 1):
     readme += f'[{i}.q](aoc2020/{i}.q) | '
     readme += f'[input](aoc2020/inputs/{i}.txt)\n'
 
-readme += "# Project Euler Solutions in kdb-q\n\n"
+readme += "# Project Euler Solutions\n\n"
 
 readme += "Problem | Solution | Input\n --- | --- | ---\n"
 
 with open('names.txt', 'r') as f:
     names = f.readlines()
 
-for i in range(1, count + 1):
+for i in range(1, 900):
+    sol = [f'q/{i}.{x}' for x in ['q', 'py'] if (f'q/{i}.{x}' in all_py) or (f'q/{i}.{x}' in all_q)]
+    if sol:
+        readme += f'[{names[i - 1].rstrip()}](https://projecteuler.net/problem={i}) | '
+        readme += f"{','.join(f'[{i[2:]}]({i})' for i in sol)} | "
+        readme += f'[input](q/inputs/{i}.txt)\n'
+
+    '''
     readme += f'[{names[i - 1].rstrip()}](https://projecteuler.net/problem={i}) | '
     readme += f'[{i}.q](q/{i}.q) | '
     readme += f'[input](q/inputs/{i}.txt)\n'
+    '''
 
 with open('README.md', 'w') as f:
     f.write(readme)

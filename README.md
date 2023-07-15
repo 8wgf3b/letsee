@@ -6,7 +6,7 @@
 
 Day | Solution | Input
  --- | --- | ---
-[1](https://adventofcode.com/2021/day/1) | [1.q](aoc2021/1.q), [1.hs](aoc2021/1.hs) | [input](aoc2021/inputs/1.txt)
+[1](https://adventofcode.com/2021/day/1) | [1.hs](aoc2021/1.hs), [1.q](aoc2021/1.q) | [input](aoc2021/inputs/1.txt)
 [2](https://adventofcode.com/2021/day/2) | [2.q](aoc2021/2.q) | [input](aoc2021/inputs/2.txt)
 [3](https://adventofcode.com/2021/day/3) | [3.q](aoc2021/3.q) | [input](aoc2021/inputs/3.txt)
 [4](https://adventofcode.com/2021/day/4) | [4.q](aoc2021/4.q) | [input](aoc2021/inputs/4.txt)
@@ -53,7 +53,7 @@ Day | Solution | Input
 [23](https://adventofcode.com/2020/day/23) | [23.q](aoc2020/23.q) | [input](aoc2020/inputs/23.txt)
 [24](https://adventofcode.com/2020/day/24) | [24.q](aoc2020/24.q) | [input](aoc2020/inputs/24.txt)
 [25](https://adventofcode.com/2020/day/25) | [25.q](aoc2020/25.q) | [input](aoc2020/inputs/25.txt)
-# Project Euler Solutions in kdb-q
+# Project Euler Solutions
 
 Problem | Solution | Input
  --- | --- | ---
@@ -71,4 +71,5 @@ Problem | Solution | Input
 [Highly divisible triangular number](https://projecteuler.net/problem=12) | [12.q](q/12.q) | [input](q/inputs/12.txt)
 [Large sum](https://projecteuler.net/problem=13) | [13.q](q/13.q) | [input](q/inputs/13.txt)
 [Longest Collatz sequence](https://projecteuler.net/problem=14) | [14.q](q/14.q) | [input](q/inputs/14.txt)
-[Lattice paths](https://projecteuler.net/problem=15) | [15.q](q/15.q) | [input](q/inputs/15.txt)
+[Lattice paths](https://projecteuler.net/problem=15) | [15.py](q/15.py) | [input](q/inputs/15.txt)
+[Power digit sum](https://projecteuler.net/problem=16) | [16.py](q/16.py) | [input](q/inputs/16.txt)
